@@ -39,8 +39,8 @@ body {
     padding: 100px 0 0 100px;
     gap: 10px;
     opacity: 0px;
-    margin: 0 auto;
     background-color: var(--white);
+    margin: 0 auto;
 }
 
 .paragraph-container {
