@@ -910,6 +910,7 @@ body {
         border-radius: 15px;
         opacity: 0px;
     }
+
     /*YOURORDER TABLET END*/
 
     /*FOOTER TABLET START*/
@@ -943,6 +944,16 @@ body {
         width: 704px;
         gap: 284px;
     }
+
+    .footer-menu-span {
+        font-family: Inter Tight;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+
     /*FOOTER TABLET ENDs*/
 }
 
@@ -1302,10 +1313,77 @@ body {
 
     /*FOOTER MOBILE START*/
     .footer-container {
-        width:375px;
-        height:520px;
+        width: 375px;
+        height: 520px;
         padding: 40px 20px 40px 20px;
-        gap: 80px;
+        gap: 100px;
     }
+
+    .footer-block {
+        width: 215px;
+        height: 220px;
+        gap: 40px;
+        opacity: 0px;
+        flex-direction: column;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        width: 296px;
+        height: 344px;
+        gap: 40px;
+    }
+
+    .footer-bottom {
+        width: 335px;
+        height: 16px;
+        gap: 49px;
+        opacity: 0px;
+
+    }
+
+    .footer-bottom-span {
+        font-family: Inter Tight;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.015em;
+        text-align: left;
+
+    }
+
+    .footer-menu-span {
+        font-family: Inter Tight;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+
+    .footer-contacts-span {
+        font-family: Inter Tight;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: -0.015em;
+        text-align: left;
+
+    }
+
+    .footer-logo-span {
+        font-family: Inter Tight;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+    }
+
+    .footer-logo {
+        width: 296px;
+        height: 84px;
+        gap: 14px;
+    }
+
     /*FOOTER MOBILE END*/
 }
