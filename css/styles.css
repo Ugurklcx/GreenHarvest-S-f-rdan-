@@ -3,7 +3,7 @@
     --green: #576F35;
     --black: #141414;
     --white: #FBFBFB;
-    --bodycolor : none;
+    --bodycolor: none;
 }
 
 p,
@@ -30,9 +30,11 @@ body {
 }
 
 /* HOW IT WORKS START*/
+
 .how-it-works-section {
     background-color: var(--bodycolor);
 }
+
 .how-it-works-container {
     width: 1280px;
     height: 759px;
@@ -1394,6 +1396,7 @@ body {
     .boxes {
         gap: 20px;
         opacity: 0px;
+        padding: 0;
     }
 
     .box1 {
@@ -1447,6 +1450,7 @@ body {
         width: 335px;
         height: 301px;
         gap: 29px;
+        padding: 0;
     }
 
     .yourorder-head {
@@ -1559,7 +1563,8 @@ body {
         font-weight: 500;
         line-height: 18px;
         text-align: left;
-
+        width: 335px;
+        height: 72px;
     }
 
     .order-social-link {
