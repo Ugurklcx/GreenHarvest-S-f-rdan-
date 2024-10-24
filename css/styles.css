@@ -107,6 +107,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    counter-reset: section;
 }
 
 .how-it-works-item {
@@ -141,26 +142,33 @@ body {
 }
 
 .number {
+    position: relative;
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background-color: var(--maincolor);
-    outline:5px solid rgba(122, 49, 69, 0.3);
+    background-color: rgba(122, 49, 69, 1);
 }
 
-.number p {
-    width: 42px;
-    height: 42px;
+.number::before {
+    position: absolute;
+    counter-increment: section;
+    content: counter(section);
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    top: -5px;
+    left: -5px;
+    background-color: rgba(122, 49, 69, 0.3);
     font-family: Inter Tight;
     font-size: 20px;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: -0.02em;
-    color: rgba(251, 251, 251, 1);
     display: flex;
-    flex-direction: column;
+    text-align: left;
     align-items: center;
     justify-content: center;
+    color: rgba(251, 251, 251, 1);;
 }
 
 /* HOW IT WORKS END*/
@@ -556,7 +564,6 @@ body {
 }
 
 .form-box {
-    opacity: 0px;
     gap: 15px;
     display: flex;
 }
@@ -567,7 +574,6 @@ body {
     padding: 0px 16px 0px 16px;
     gap: 10px;
     border-radius: 30px;
-    opacity: 0px;
     border: 1px solid rgba(20, 20, 20, 0.2);
     font-family: Inter Tight;
 }
