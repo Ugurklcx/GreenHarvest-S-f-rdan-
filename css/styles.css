@@ -28,6 +28,143 @@ body {
     margin: 0;
 }
 
+/* HOW IT WORKS START*/
+.how-it-works-section {
+    background-color: var(--bodycolor);
+}
+
+.how-it-works-container {
+    width: 1280px;
+    height: 759px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.how-it-works-box-one {
+    width: 630px;
+    height: 759px;
+    padding: 100px 0px 0px 0px;
+    gap: 10px;
+    background-color: var(--maincolor);
+}
+
+.how-it-works-head {
+    font-family: Inter Tight;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.how-it-works-head span {
+    opacity: 0.3;
+}
+
+.how-it-works-paragraph {
+    font-family: Inter Tight;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: var(--white)
+}
+
+.how-it-works-box-two {
+    width: 650px;
+    height: 759px;
+    padding: 100px 100px 160px 100px;
+    gap: 10px;
+}
+
+.how-it-works-box-two-container {
+    width: 450px;
+    height: 499px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.how-it-works-box-two-text-block {
+    width: 450px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.how-it-works-box-two-block {
+    width: 450px;
+    height: 268px;
+}
+
+.how-it-works-box-two-block-ol {
+    width: 450px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.how-it-works-item {
+    width: 450px;
+    height: 76px;
+    padding: 12px 25px 12px 24px;
+    border-radius: 15px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.how-it-works-item-p {
+    width: 325px;
+    font-family: Inter Tight;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.how-it-works-item-p span {
+    font-family: Inter Tight;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.number {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: var(--maincolor);
+    outline:5px solid rgba(122, 49, 69, 0.3);
+}
+
+.number p {
+    width: 42px;
+    height: 42px;
+    font-family: Inter Tight;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HOW IT WORKS END*/
+
 /* ADVERTISMENT START*/
 .advertisment-section {
     background-color: var(--bodycolor);
