@@ -15,13 +15,16 @@
 </head>
 
 <body>
+
   <!-- HOW IT WORKS START-->
   <section class="how-it-works-section">
     <div class="how-it-works-container">
       <div class="how-it-works-box-one">
-        <div class="how-it-works-box-one-img">
-
-        </div>
+        <picture>
+          <source media="(min-width: 375px) and (max-width:768px)" srcset="img/how-it-works/WomanTablet.png">
+          <source media="(min-width: 0px) and (max-width: 375px)" srcset="img/how-it-works/WomanMobile.png">
+          <img src="img/how-it-works/Woman.png" alt="Woman" style="width:auto;">
+        </picture>
       </div>
       <div class="how-it-works-box-two">
         <div class="how-it-works-box-two-container">
@@ -35,7 +38,6 @@
             <ol class="how-it-works-box-two-block-ol">
               <li class="how-it-works-item">
                 <div class="number">
-
                 </div>
                 <p class="how-it-works-item-p">Just choose <span>the vegetable</span> you want to order by clicking on
                   the checkboxes <span>next to it.</span></p>
