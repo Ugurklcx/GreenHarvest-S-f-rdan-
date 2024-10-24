@@ -3,7 +3,7 @@
     --green: #576F35;
     --black: #141414;
     --white: #FBFBFB;
-    --bodycolor: grey;
+    --bodycolor : none;
 }
 
 p,
@@ -25,6 +25,7 @@ ul {
 }
 
 body {
+    background-image: url('/img/grass.jpg');
     margin: 0;
 }
 
@@ -32,7 +33,6 @@ body {
 .how-it-works-section {
     background-color: var(--bodycolor);
 }
-
 .how-it-works-container {
     width: 1280px;
     height: 759px;
